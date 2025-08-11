@@ -1,13 +1,14 @@
-# Introduction to Lists in Python
+'''
+Introduction to Lists in Python
 
-# A list is a built-in data structure in Python that can store a collection of items.
-# Lists are ordered, mutable (can be changed), and can contain elements of different types.
+A list is a built-in data structure in Python that can store a collection of items.
+Lists are ordered, mutable (can be changed), and can contain elements of different types.
 
-# Creating a list
+Creating a list
 fruits = ["apple", "banana", "cherry"]
 print(fruits)  # Output: ['apple', 'banana', 'cherry']
 
-
+'''
 
 # Basic Operations On Lists
 # Type of list
@@ -81,11 +82,6 @@ print(fruits * 2)  # Output: ['apple', 'grape', 'blueberry', 'cherry', 'orange',
 
 
 
-
-
-
-
-
 # Slicing Lists
 # Slicing allows you to access a portion of the list.
 Fruits=['Orange', 'Grape', 'Guava', 'Lemon', 'Apple', 'Mango', 'Kivi', 'Banana']
@@ -140,10 +136,10 @@ print(n)  # Output: [1, 2, 3, 4, 5, 6, 7, 8]
 
 
 
-
-# numerical operations on lists
-# Lists can also be used for numerical operations, such as finding the sum or average.
-
+'''
+numerical operations on lists
+Lists can also be used for numerical operations, such as finding the sum or average.
+'''
 numbers = [10, 20, 30, 40, 50]
 
 # Finding the sum of elements in a list
