@@ -3,12 +3,12 @@ Introduction to Lists in Python
 
 A list is a built-in data structure in Python that can store a collection of items.
 Lists are ordered, mutable (can be changed), and can contain elements of different types.
-
-Creating a list
+'''
+# Creating a list
 fruits = ["apple", "banana", "cherry"]
 print(fruits)  # Output: ['apple', 'banana', 'cherry']
 
-'''
+
 
 # Basic Operations On Lists
 # Type of list
