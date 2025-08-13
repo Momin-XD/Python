@@ -29,8 +29,26 @@ for i in range(5):
     print(i)
 
 
+# For loop with else
+for i in range(6):
+    print(i)
+else:
+    print('done')
 
 
+# Break statement
+# it breaks the loop when the given condition becomes true
+for i in range(40):
+    if i==25:
+        break #the loop will collaps when i==25
+    print(i)
+
+# Continue statement
+# it skips the value that has been given
+for i in range(40):
+    if i==25:
+        continue #when i=25 it will skip and go for the next value that is 26
+    print(i)
 '''
 While Loops in Python
 A while loop repeatedly executes a block of code as long as a given condition is True.
