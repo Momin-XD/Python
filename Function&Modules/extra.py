@@ -165,7 +165,6 @@ for i in range(1,n+1):
     print("*"*i)
 
 
-'''
 # 
 n=int(input('Enter the number: '))
 for i in range(1,n+1):
@@ -175,3 +174,66 @@ for i in range(1,n+1):
         print("*",end="")
         print(" "*(n-2),end="")
         print("*")
+
+        
+
+# Factorial
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    else:
+        factorial=n*fact(n-1)
+    return factorial
+n=int(input("Enter the number! "))
+a=fact(n)
+print(a)
+
+
+
+# Greates number
+def great(a,b,c):
+    if a>b and a>c:
+        print(f'{a} is the greatest of all three')
+    elif b>a and b>c:
+        print(f'{b} is the greatest of all three')
+    elif c>b and a<c:
+        print(f'{c} is the greatest of all three')
+
+great(81,8,9)
+
+
+
+# Celsius to Fahrenheit
+def C_F(c):
+    F=(c*9/5) + 32
+    return F
+
+c=int(input("Enter the temp. in Celsius: "))
+print(f'{c} celsius = {C_F(c)} Fahrenheit.')
+
+
+
+# Sum of first n numbers
+def sum(n):
+    if n==0:
+        return 0
+    else:
+        return n + sum(n-1)
+    
+n=int(input("Enter the number: "))
+print(f'Sum of first {n} numbers is {sum(6)}')
+
+
+
+
+'''
+# Pattern recursion
+def sta(n):
+    if (n==0):
+        return
+    print("*" * n)
+    sta(n-1)
+
+n=int(input("Enter the number: "))
+sta(n)
+

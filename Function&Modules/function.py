@@ -62,3 +62,37 @@ def square(a):
     return a * a
 result = square(add(2, 3))
 print(f"The result of adding 2 and 3, then squaring it is: {result}")  # Output: The result of adding 2 and 3, then squaring it is: 25
+
+
+
+# Finding factorial with recursion function
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    else:
+        factorial=n*fact(n-1)
+    return factorial
+n=int(input("Enter the number! "))
+a=fact(n)
+print(a)
+
+
+# Celsius to Fahrenheit
+def C_F(c):
+    F=(c*9/5) + 32
+    return F
+
+c=int(input("Enter the temp. in Celsius: "))
+print(f'{c} celsius = {C_F(c)} Fahrenheit.')
+
+
+
+# Sum of first n numbers
+def sum(n):
+    if n==0:
+        return 0
+    else:
+        return n + sum(n-1)
+    
+n=int(input("Enter the number: "))
+print(f'Sum of first {n} numbers is {sum(6)}')
