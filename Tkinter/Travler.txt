@@ -1,0 +1,6 @@
+name   ,Phone   ,gender , altnum.   ,Payment ,Service ,Food prebook
+Hameed  ,989898989  ,M  ,898989898  ,cash   ,Vip      ,1
+Muskan  ,89898980   ,F  ,99999999   ,Udhar  ,Regular  ,0
+Saqib	,111111111	,M	,222222222	,Card	,Regular  ,1
+Momin	,98989898	,M	,88888888	,Cash	,Premium  ,1
+

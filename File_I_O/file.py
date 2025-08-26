@@ -63,3 +63,12 @@
 #     f.write(word)
 
 
+# We can open multiple files in a single func
+with (
+    open('file.txt') as f1,
+    open('Myfile.txt') as f2
+):
+    print(f1.read())
+    print("\n")
+    print(f2.read())
+
