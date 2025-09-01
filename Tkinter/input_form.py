@@ -14,7 +14,7 @@ root.geometry('600x400')
 root.title("MK Travles Form")
 
 # labeling text for the form
-label=Label(root,text="Welcome to MK Travels",font='comicsansms 12 bold', pady=5).grid(row=0,column=3)
+label=Label(root,text="Welcome to MK Travels",font='comicsansms 12 bold', pady=5)
 name=Label(root,text="Name")
 phone=Label(root,text="Phone")
 gender=Label(root,text="Gender")
@@ -22,6 +22,7 @@ emergency=Label(root,text="Emergency Contact")
 payment=Label(root,text="Pament Mode")
 
 # pack text for the form
+label.grid(row=0,column=3)
 name.grid(row=1,column=2)
 phone.grid(row=2,column=2)
 gender.grid(row=3,column=2)
